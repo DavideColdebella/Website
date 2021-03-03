@@ -2,9 +2,9 @@
 layout: post
 title:  "Introduction"
 date:   2021-03-03 13:13:23 +0100
-categories: S&P500 
+categories: SP500 
 author: "Davide Coldebella"
-permalink: S&P500/Introduction
+permalink: SP500/Introduction
 ---
 
 
@@ -20,6 +20,5 @@ permalink: S&P500/Introduction
 | max   |    0.1158      |    0.232117    |     0.13253     |     0.206485    |    0.146326    |       0.147054   |    0.154627    |     0.147229    |
 
 
-{% include_relative S&P500/Missing_values.html %}
+{% include Missing_values.html content="This is my sample note." %}
 
-<iframe src="/Missing_values.html" height="315" width="560" allowfullscreen="" frameborder="0">
