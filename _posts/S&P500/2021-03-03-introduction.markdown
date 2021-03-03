@@ -7,4 +7,4 @@ author: "Davide Coldebella"
 permalink: S&P500/Introduction
 ---
 
-<iframe src="./Correlation_hist_corr.html" width="400" height="400" id="igraph" scrolling="no" seamless="seamless" frameBorder="0"> </iframe>
+
