@@ -7,7 +7,6 @@ author: "Davide Coldebella"
 permalink: SP500/Introduction
 ---
 
-
 |       |      SPX Index |   AA UN Equity |   LYB UN Equity |   AXP UN Equity |   VZ UN Equity |   AVGO UW Equity |   BA UN Equity |   CAT UN Equity |
 |:------|---------------:|---------------:|----------------:|----------------:|---------------:|-----------------:|---------------:|----------------:|
 | count | 3973           | 3973           |  1457           |  3973           | 3973           |    1757          | 3973           |  3973           |
