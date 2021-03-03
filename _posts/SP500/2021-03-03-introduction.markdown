@@ -22,3 +22,4 @@ permalink: SP500/Introduction
 
 {% include Missing_values.html %}
 
+<iframe src="Missing_values.html" width="100%" height="100%" id="igraph" scrolling="no" seamless="seamless" frameBorder="0"> </iframe>
