@@ -20,5 +20,5 @@ permalink: SP500/Introduction
 | max   |    0.1158      |    0.232117    |     0.13253     |     0.206485    |    0.146326    |       0.147054   |    0.154627    |     0.147229    |
 
 
-{% include Missing_values.html content="This is my sample note." %}
+{% include Missing_values.html %}
 
