@@ -29,17 +29,22 @@ After the above step we compute the simple returns by the formula
     <img src="http://latex.codecogs.com/svg.latex?r_i=\frac{P_i-P_{i-1}}{P_{i-1}}" title="http://latex.codecogs.com/svg.latex?r_i=\frac{P_i-P_{i-1}}{P_{i-1}}" />
 </p>
 
+We present a brief summary of the first 8 columns of the cleaned dataset in the table below.
+As can be noted by comparing the max values against the mean and the median we may suspect that there are outliers. However these are extreme values and are indeed part of the data distribution as can be seen in the histogram below.
 
+|       |      SPX Index |   AA UN Equity |   AXP UN Equity |   VZ UN Equity |   BA UN Equity |
+|:------|---------------:|---------------:|----------------:|---------------:|---------------:|
+| count | 3973           | 3973           |  3973           | 3973           | 3973           |
+| mean  |    0.000195529 |    0.000126167 |     0.00034642  |    0.000189777 |    0.000381165 |
+| std   |    0.0125155   |    0.0269544   |     0.0233133   |    0.0153848   |    0.0189668   |
+| min   |   -0.0903498   |   -0.160539    |    -0.175949    |   -0.118461    |   -0.176254    |
+| 25%   |   -0.00526341  |   -0.0131417   |    -0.00884017  |   -0.00747935  |   -0.0093639   |
+| 50%   |    0.0005749   |    0           |     0.000178723 |    0.000213038 |    0.000509424 |
+| 75%   |    0.00587121  |    0.0128355   |     0.00975548  |    0.00780166  |    0.0106667   |
+| max   |    0.1158      |    0.232117    |     0.206485    |    0.146326    |    0.154627    |
 
-|       |      SPX Index |   AA UN Equity |   LYB UN Equity |   AXP UN Equity |   VZ UN Equity |  
-|:------|---------------:|---------------:|----------------:|----------------:|---------------:|
-| count | 3973           | 3973           |  1457           |  3973           | 3973           | 
-| mean  |    0.000195529 |    0.000126167 |     0.000963509 |     0.00034642  |    0.000189777 |     
-| std   |    0.0125155   |    0.0269544   |     0.0227345   |     0.0233133   |    0.0153848   |   
-| min   |   -0.0903498   |   -0.160539    |    -0.140139    |    -0.175949    |   -0.118461    |   
-| 25%   |   -0.00526341  |   -0.0131417   |    -0.00972566  |    -0.00884017  |   -0.00747935  |    
-| 50%   |    0.0005749   |    0           |     0.00160831  |     0.000178723 |    0.000213038 |   
-| 75%   |    0.00587121  |    0.0128355   |     0.0125745   |     0.00975548  |    0.00780166  |       
-| max   |    0.1158      |    0.232117    |     0.13253     |     0.206485    |    0.146326    |    
+{% include SPX_Index_hist.html %}
 
+We can indeed notice the presence of fat tails (notice that the y-axis is in log-scale).
 
+In the next post we will see how the sample procedure and the noise smoothing were performed.
