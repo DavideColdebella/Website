@@ -5,3 +5,4 @@
 layout: home
 ---
 
+Go to this [page]({% link Post_structure.html %}) to see the posts'logical structure.
